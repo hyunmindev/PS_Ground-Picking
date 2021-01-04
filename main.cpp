@@ -57,7 +57,10 @@ int solution(vector<vector<int>> land_vec_vec_temp)
 
 int main(int argc, const char * argv[]) {
   vector<vector<int>> input_vec_vec;
-  input_vec_vec = {{1, 2, 3, 5}, {5, 6, 7, 8}, {4, 3, 2, 1}};
+  input_vec_vec = {{3, 2, 8, 5},
+                   {5, 6, 7, 8},
+                   {4, 3, 2, 1},
+                   {4, 3, 99, 14}};
   
   int output = solution(input_vec_vec);
   cout << output << endl;
